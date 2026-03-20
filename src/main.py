@@ -688,6 +688,64 @@ async def metrics():
     )
 
 
+@app.get("/api/v1/config")
+async def get_config_endpoint(request: Request):
+    """Get the current configuration. Requires dashboard password."""
+    auth_header = request.headers.get("Authorization", "")
+    cfg = get_config()
+    password = cfg.get("password", "")
+    
+    if password:
+        if not auth_header.startswith("Bearer ") or auth_header[7:] != password:
+            raise AuthenticationException("Invalid or missing dashboard password")
+            
+    # Include some safe environment info
+    cfg["debug_mode"] = os.getenv("DEBUG_MODE", "false").lower() == "true"
+    return cfg
+
+@app.post("/api/v1/config")
+async def update_config_endpoint(request: Request):
+    """Update the configuration. Requires dashboard password."""
+    auth_header = request.headers.get("Authorization", "")
+    cfg = get_config()
+    password = cfg.get("password", "")
+    
+    if password:
+        if not auth_header.startswith("Bearer ") or auth_header[7:] != password:
+            raise AuthenticationException("Invalid or missing dashboard password")
+            
+    try:
+        new_cfg = await request.json()
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid JSON body")
+        
+    # Preserve admin password if not provided or empty
+    if "password" not in new_cfg or not new_cfg["password"]:
+        new_cfg["password"] = password
+        
+    # We can't change debug mode on the fly as it requires a server restart, so we remove it before saving
+    if "debug_mode" in new_cfg:
+        del new_cfg["debug_mode"]
+        
+    save_config(new_cfg)
+    
+    # Apply changes on the fly to the live server
+    tokens = config.get_auth_tokens(new_cfg)
+    if tokens:
+        await auth.load_yupp_accounts(",".join(tokens))
+        
+    return {"status": "success", "message": "Configuration updated and applied"}
+
+from fastapi.responses import FileResponse
+
+@app.get("/dashboard.html")
+async def serve_dashboard_html():
+    """Serve the graphical dashboard HTML file."""
+    import os
+    if os.path.exists("dashboard.html"):
+        return FileResponse("dashboard.html")
+    raise HTTPException(status_code=404, detail="Dashboard HTML file not found")
+
 # Re-export for backward compatibility
 from . import auth as _auth
 from . import config as _config
