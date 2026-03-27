@@ -170,7 +170,7 @@ async def stream_yupp_chat(
         files = prepare_media(media, scraper, account)
     
     # Determine mode
-    mode = "image"  # Could check model capabilities
+    mode = "chat"  # Changed from "image" to return text
     
     # Build payload
     if is_new_conversation:
@@ -287,24 +287,7 @@ async def _process_stream_response(
             else:
                 log_debug(f"Reference {value} not found in chunk_map (yet)")
         return value
-    """Process the streaming response from Yupp AI."""
-    
-    # Line pattern for SSE
-    line_pattern = re.compile(rb'^(\d+):(.+)$')
-    
-    think_blocks: Dict[str, str] = {}
-    image_blocks: Dict[str, str] = {}
-    
-    capturing_ref_id: Optional[str] = None
-    capturing_lines: List[bytes] = []
-    
-    target_stream_id = None
-    variant_stream_id = None
-    quick_response_id = None
-    turn_id = None
-    left_message_id = None
-    right_message_id = None
-    
+    # Loop setup
     loop = asyncio.get_event_loop()
     
     def iter_lines():
@@ -421,6 +404,8 @@ async def _process_stream_response(
         if target_stream_id and chunk_id == target_stream_id:
             if isinstance(data, dict):
                 target_stream_id = _extract_ref_id(data.get("next"))
+                if target_stream_id and target_stream_id.startswith("$@"):
+                    target_stream_id = target_stream_id[2:]
                 content = data.get("curr", "")
                 if content:
                     yield f"data: {json.dumps({'content': content})}\n\n"
@@ -428,6 +413,8 @@ async def _process_stream_response(
         elif variant_stream_id and chunk_id == variant_stream_id:
             if isinstance(data, dict):
                 variant_stream_id = _extract_ref_id(data.get("next"))
+                if variant_stream_id and variant_stream_id.startswith("$@"):
+                    variant_stream_id = variant_stream_id[2:]
                 content = data.get("curr", "")
                 if content:
                     yield f"data: {json.dumps({'content': f'[Variant] {content}'})}\n\n"

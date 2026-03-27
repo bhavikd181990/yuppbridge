@@ -9,6 +9,7 @@ import time
 from typing import Any, Dict, List, Optional
 
 from . import config, constants, state
+from . import session_extractor
 
 
 async def load_yupp_accounts(tokens_str: Optional[str] = None) -> None:
@@ -44,7 +45,11 @@ async def get_best_yupp_account() -> Optional[Dict[str, Any]]:
     """
     accounts = state.get_accounts()
     if not accounts:
-        return None
+        # Try to auto-update if no accounts exist at all
+        if await session_extractor.attempt_auto_update():
+            accounts = state.get_accounts()
+        else:
+            return None
     
     max_error_count = int(os.getenv("MAX_ERROR_COUNT", str(constants.MAX_ERROR_COUNT)))
     error_cooldown = int(os.getenv("ERROR_COOLDOWN", str(constants.ERROR_COOLDOWN)))
@@ -62,7 +67,17 @@ async def get_best_yupp_account() -> Optional[Dict[str, Any]]:
         ]
         
         if not valid_accounts:
-            return None
+            # Let's drop the lock to update token
+            pass
+
+    if not valid_accounts:
+        # Try to auto update session token from local browser
+        if await session_extractor.attempt_auto_update():
+            # Recursively try again once
+            return await get_best_yupp_account()
+        return None
+
+    async with state.account_rotation_lock:
         
         # Reset error count for accounts past cooldown
         for acc in valid_accounts:
