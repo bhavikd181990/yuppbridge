@@ -415,15 +415,13 @@ async def _process_stream_response(
                 variant_stream_id = _extract_ref_id(data.get("next"))
                 if variant_stream_id and variant_stream_id.startswith("$@"):
                     variant_stream_id = variant_stream_id[2:]
-                content = data.get("curr", "")
-                if content:
-                    yield f"data: {json.dumps({'content': f'[Variant] {content}'})}\n\n"
+                # We skip yielding variant content to prevent interleaved responses
+                pass
         
         elif quick_response_id and chunk_id == quick_response_id:
             if isinstance(data, dict):
-                content = data.get("curr", "")
-                if content:
-                    yield f"data: {json.dumps({'content': f'[Quick] {content}'})}\n\n"
+                # We skip yielding quick response content
+                pass
     
     # End of stream - resolve references and trigger reward flow
     # Wait a moment for any late-arriving chunks
