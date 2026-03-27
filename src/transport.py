@@ -225,10 +225,16 @@ async def stream_yupp_chat(
         response.raise_for_status()
         
         # Process streaming response
+        chunk_count = 0
         async for chunk in _process_stream_response(
             response, token_ext, account, model
         ):
+            chunk_count += 1
             yield chunk
+            
+        if chunk_count <= 1:
+            # If only [DONE] was yielded, the token silently failed!
+            raise Exception("Silent stream failure: Zero content chunks generated")
             
     except Exception as e:
         log_debug(f"Stream error: {e}")

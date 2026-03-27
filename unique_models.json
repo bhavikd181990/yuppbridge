@@ -1,0 +1,5177 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "qwen3.5-27b",
+      "object": "model",
+      "created": 1771955312,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3.5-27b<>NOV",
+      "object": "model",
+      "created": 1772140655,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "claude-opus-4-6<>thinking<>VTX",
+      "object": "model",
+      "created": 1772441890,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-opus-4-6<>thinking",
+      "object": "model",
+      "created": 1770313924,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-sonnet-4-6<>thinking<>VTX",
+      "object": "model",
+      "created": 1772439545,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-sonnet-4-6<>thinking",
+      "object": "model",
+      "created": 1771353892,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "gemini-3-flash-preview<>thinking<>GAI",
+      "object": "model",
+      "created": 1765989166,
+      "owned_by": "Google"
+    },
+    {
+      "id": "glm-5<>ZAI",
+      "object": "model",
+      "created": 1770828535,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-5<>BST",
+      "object": "model",
+      "created": 1771452375,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-5-TEE<>CHT",
+      "object": "model",
+      "created": 1771010507,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/glm-5<>NOV",
+      "object": "model",
+      "created": 1770837311,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-5<>TAI",
+      "object": "model",
+      "created": 1770971952,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-5<>OPR",
+      "object": "model",
+      "created": 1770836166,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k2.5<>BED",
+      "object": "model",
+      "created": 1770430328,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.5<>TAI",
+      "object": "model",
+      "created": 1769551143,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "kimi-k2.5",
+      "object": "model",
+      "created": 1769497603,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.5<>BST",
+      "object": "model",
+      "created": 1770166867,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/Kimi-K2.5-TEE<>CHT",
+      "object": "model",
+      "created": 1769537845,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/kimi-k2.5<>NOV",
+      "object": "model",
+      "created": 1770920844,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/kimi-k2.5<>OPR",
+      "object": "model",
+      "created": 1770920863,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "grok-4-1-fast-reasoning<>XAI",
+      "object": "model",
+      "created": 1763594193,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2<>thinking<>OPR",
+      "object": "model",
+      "created": 1764602405,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "gpt-5.1-codex<>high<>AZR",
+      "object": "model",
+      "created": 1763517906,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "qwen3.5-35b-a3b",
+      "object": "model",
+      "created": 1771955371,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3.5-35b-a3b<>NOV",
+      "object": "model",
+      "created": 1772140639,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gpt-5.3-chat-latest",
+      "object": "model",
+      "created": 1772563706,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.4-mini-2026-03-17",
+      "object": "model",
+      "created": 1773769744,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gemini-3.1-pro-preview<>VTX",
+      "object": "model",
+      "created": 1771515492,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview<>OPR",
+      "object": "model",
+      "created": 1771528242,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gpt-5.3-codex<>medium",
+      "object": "model",
+      "created": 1771962311,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.4-nano-2026-03-17",
+      "object": "model",
+      "created": 1773769661,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview",
+      "object": "model",
+      "created": 1772122571,
+      "owned_by": "Google"
+    },
+    {
+      "id": "qwen3.5-122b-a10b",
+      "object": "model",
+      "created": 1771954610,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b<>NOV",
+      "object": "model",
+      "created": 1772140671,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gemini-3.1-flash-lite-preview<>GAI",
+      "object": "model",
+      "created": 1772555090,
+      "owned_by": "Google"
+    },
+    {
+      "id": "fal-ai/qwen-image-2/text-to-image",
+      "object": "model",
+      "created": 1772589098,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gemini-3.1-pro-preview<>online<>VTX",
+      "object": "model",
+      "created": 1772071061,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gpt-5.3-codex<>high",
+      "object": "model",
+      "created": 1771962585,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gemini-3.1-flash-lite-preview<>thinking<>GAI",
+      "object": "model",
+      "created": 1772555051,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-3.1-flash-lite-preview<>thinking<>VTX",
+      "object": "model",
+      "created": 1772554767,
+      "owned_by": "Google"
+    },
+    {
+      "id": "fal-ai/qwen-image-2/pro/text-to-image",
+      "object": "model",
+      "created": 1772589445,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gpt-5.3-codex<>low",
+      "object": "model",
+      "created": 1771962547,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "Qwen/Qwen3.5-9B<>TAI",
+      "object": "model",
+      "created": 1773263292,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3.5-9b<>OPR",
+      "object": "model",
+      "created": 1773263177,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "claude-opus-4-6<>VTX",
+      "object": "model",
+      "created": 1772440665,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-opus-4-6",
+      "object": "model",
+      "created": 1770313145,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "gemini-3-pro-image-preview<>VTXAI",
+      "object": "model",
+      "created": 1764016326,
+      "owned_by": "Google"
+    },
+    {
+      "id": "claude-sonnet-4-6<>VTX",
+      "object": "model",
+      "created": 1772435083,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "object": "model",
+      "created": 1771353361,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "seedream-4-5-251128<>MAI",
+      "object": "model",
+      "created": 1764765226,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "seedream-4-5-251128<>4k<>MAI",
+      "object": "model",
+      "created": 1764765517,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "claude-opus-4-5@20251101<>thinking<>VTX",
+      "object": "model",
+      "created": 1772443711,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "gpt-5.1<>none<>AZR",
+      "object": "model",
+      "created": 1763517394,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "FLUX.2-pro<>AIG",
+      "object": "model",
+      "created": 1766823585,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "fal-ai/flux-2-pro",
+      "object": "model",
+      "created": 1764092793,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "gpt-5.1<>high<>AZR",
+      "object": "model",
+      "created": 1763518362,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "seedream-5-0-260128<>MAI",
+      "object": "model",
+      "created": 1771932235,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "gpt-5.2-chat<>AZR",
+      "object": "model",
+      "created": 1765790705,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-chat-latest",
+      "object": "model",
+      "created": 1765477774,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gemini-3-pro-preview<>GAI",
+      "object": "model",
+      "created": 1763482901,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-3-pro-preview<>VTX",
+      "object": "model",
+      "created": 1763482418,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemini-3-pro-preview<>OPR",
+      "object": "model",
+      "created": 1763483678,
+      "owned_by": "Google"
+    },
+    {
+      "id": "claude-sonnet-4-5@20250929<>thinking<>VTX",
+      "object": "model",
+      "created": 1772444824,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "Nova Experimental Chat 11-10<>ANV",
+      "object": "model",
+      "created": 1766192589,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "gemini-2.5-flash-image",
+      "object": "model",
+      "created": 1767847746,
+      "owned_by": "Google"
+    },
+    {
+      "id": "yupp-nn-router<>c0v2<>YPR",
+      "object": "model",
+      "created": 1773088805,
+      "owned_by": "Yupp"
+    },
+    {
+      "id": "gemini-3-pro-preview<>low<>GAI",
+      "object": "model",
+      "created": 1763527415,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-3-pro-preview<>low<>VTX",
+      "object": "model",
+      "created": 1763504346,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gpt-5.2<>none<>AZR",
+      "object": "model",
+      "created": 1765789591,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-2025-12-11<>none",
+      "object": "model",
+      "created": 1765476508,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "claude-opus-4-5@20251101<>VTX",
+      "object": "model",
+      "created": 1772443629,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "gemini-3-flash-preview<>GAI",
+      "object": "model",
+      "created": 1765988220,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemini-3-flash-preview<>OPR",
+      "object": "model",
+      "created": 1765988109,
+      "owned_by": "Google"
+    },
+    {
+      "id": "beluga-0304-1<>ANV",
+      "object": "model",
+      "created": 1773263835,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "gpt-5.2<>high<>AZR",
+      "object": "model",
+      "created": 1765789988,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-chat-latest",
+      "object": "model",
+      "created": 1754621775,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-5-chat<>OPR",
+      "object": "model",
+      "created": 1754591918,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "beluga-0220-2<>ANV",
+      "object": "model",
+      "created": 1772823987,
+      "owned_by": "Mystery"
+    },
+    {
+      "id": "grok-4-1-fast-non-reasoning<>XAI",
+      "object": "model",
+      "created": 1763594148,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "gpt-5<>high<>AZR",
+      "object": "model",
+      "created": 1756251359,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5<>high",
+      "object": "model",
+      "created": 1754597118,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.1<>high<>web_search_preview<>AZR",
+      "object": "model",
+      "created": 1769213515,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.1-2025-11-13<>high<>web_search_preview",
+      "object": "model",
+      "created": 1763078148,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "amazon-nova-experimental-chat-12-10<>ANV",
+      "object": "model",
+      "created": 1768004752,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "claude-haiku-4-5@20251001<>high<>VTX",
+      "object": "model",
+      "created": 1772444393,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001<>high",
+      "object": "model",
+      "created": 1760638125,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/qwen.qwen3-vl-235b-a22b<>BED",
+      "object": "model",
+      "created": 1764874849,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen3-vl-235b-a22b-instruct",
+      "object": "model",
+      "created": 1758665708,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-235B-A22B-Instruct<>CHT",
+      "object": "model",
+      "created": 1759598994,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct<>NOV",
+      "object": "model",
+      "created": 1758731102,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct<>OPR",
+      "object": "model",
+      "created": 1758670184,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gemini-2.5-pro<>high<>VTX",
+      "object": "model",
+      "created": 1756701383,
+      "owned_by": "Google"
+    },
+    {
+      "id": "imagen-4.0-ultra-generate-001",
+      "object": "model",
+      "created": 1761957827,
+      "owned_by": "Google"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/qwen.qwen3-next-80b-a3b<>BED",
+      "object": "model",
+      "created": 1764874835,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-Next-80B-A3B-Instruct<>CHT",
+      "object": "model",
+      "created": 1757623977,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct<>NOV",
+      "object": "model",
+      "created": 1757623795,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-Next-80B-A3B-Instruct<>TAI",
+      "object": "model",
+      "created": 1757829195,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen3-next-80b-a3b-instruct",
+      "object": "model",
+      "created": 1757614504,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct<>OPR",
+      "object": "model",
+      "created": 1757623673,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen3-30b-a3b-instruct-2507",
+      "object": "model",
+      "created": 1753890571,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507<>OPR",
+      "object": "model",
+      "created": 1755191310,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gpt-5-codex<>high",
+      "object": "model",
+      "created": 1758648976,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "qwen/qwen3-omni-30b-a3b-thinking<>NOV",
+      "object": "model",
+      "created": 1759122335,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "fal-ai/imagen4/preview",
+      "object": "model",
+      "created": 1748587764,
+      "owned_by": "Google"
+    },
+    {
+      "id": "replicate/google/imagen-4",
+      "object": "model",
+      "created": 1748627733,
+      "owned_by": "Google"
+    },
+    {
+      "id": "imagen-4.0-generate-preview-06-06",
+      "object": "model",
+      "created": 1748583089,
+      "owned_by": "Google"
+    },
+    {
+      "id": "kimi-k2.5<>instant<>MOS",
+      "object": "model",
+      "created": 1769499284,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-TEE<>CHT",
+      "object": "model",
+      "created": 1767854102,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-instruct-2507<>NOV",
+      "object": "model",
+      "created": 1753308850,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Instruct-2507<>CHT",
+      "object": "model",
+      "created": 1754543844,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput<>TAI",
+      "object": "model",
+      "created": 1753308769,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-2507<>OPR",
+      "object": "model",
+      "created": 1755191239,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-07-25<>OPR",
+      "object": "model",
+      "created": 1753129248,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "claude-sonnet-4-5@20250929<>VTX",
+      "object": "model",
+      "created": 1772444778,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/deepseek.v3.2<>BED",
+      "object": "model",
+      "created": 1770419880,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.2<>BST",
+      "object": "model",
+      "created": 1764875215,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "accounts/fireworks/models/deepseek-v3p2<>FWK",
+      "object": "model",
+      "created": 1771626897,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2<>OPR",
+      "object": "model",
+      "created": 1764601905,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "qwen3-max",
+      "object": "model",
+      "created": 1758664686,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-max<>NOV",
+      "object": "model",
+      "created": 1762365099,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-max-thinking<>OPR",
+      "object": "model",
+      "created": 1770675340,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "yupp-nn-router<>c3<>YPR",
+      "object": "model",
+      "created": 1772675672,
+      "owned_by": "Yupp"
+    },
+    {
+      "id": "gpt-5.2<>xhigh<>AZR",
+      "object": "model",
+      "created": 1765790416,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "fal-ai/flux-2-flex",
+      "object": "model",
+      "created": 1764092800,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "object": "model",
+      "created": 1750192901,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-2.5-pro<>GAI",
+      "object": "model",
+      "created": 1758847811,
+      "owned_by": "Google"
+    },
+    {
+      "id": "kimi-k2-thinking-turbo<>MOS",
+      "object": "model",
+      "created": 1762423095,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "claude-sonnet-4-5@20250929<>thinking<>online<>VTX",
+      "object": "model",
+      "created": 1772444940,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1-Terminus<>CHT",
+      "object": "model",
+      "created": 1758563453,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1-Terminus-TEE<>CHT",
+      "object": "model",
+      "created": 1766166660,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3.1-terminus<>NOV",
+      "object": "model",
+      "created": 1758559860,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "DeepSeek-V3.1-Terminus<>SAM",
+      "object": "model",
+      "created": 1759015499,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3.1-terminus<>OPR",
+      "object": "model",
+      "created": 1758555974,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "grok-4-fast-reasoning<>AZR",
+      "object": "model",
+      "created": 1769687199,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "gpt-oss-120b<>AZR",
+      "object": "model",
+      "created": 1756279542,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b<>BST",
+      "object": "model",
+      "created": 1758235161,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-oss-safeguard-120b<>BED",
+      "object": "model",
+      "created": 1764874803,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-oss-120b-1:0<>BED",
+      "object": "model",
+      "created": 1758232745,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b<>CHT",
+      "object": "model",
+      "created": 1754498569,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b-TEE<>CHT",
+      "object": "model",
+      "created": 1765816551,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b<>GRQ",
+      "object": "model",
+      "created": 1754413687,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b<>NOV",
+      "object": "model",
+      "created": 1754498530,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-oss-120b<>SAM",
+      "object": "model",
+      "created": 1757345503,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b<>TAI",
+      "object": "model",
+      "created": 1754415860,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b<>OPR",
+      "object": "model",
+      "created": 1754415905,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-120b:exacto<>OPR",
+      "object": "model",
+      "created": 1761154920,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "claude-sonnet-4-20250514<>thinking",
+      "object": "model",
+      "created": 1750841571,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-haiku-4-5@20251001<>VTX",
+      "object": "model",
+      "created": 1772444335,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "object": "model",
+      "created": 1760553114,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5<>OPR",
+      "object": "model",
+      "created": 1760553147,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "grok-4-fast-non-reasoning<>AZR",
+      "object": "model",
+      "created": 1769687852,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "x-ai/grok-4-fast<>OPR",
+      "object": "model",
+      "created": 1758822240,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "stepfun/step-3.5-flash<>OPR",
+      "object": "model",
+      "created": 1770836130,
+      "owned_by": "StepFun"
+    },
+    {
+      "id": "gemini-3-pro-preview<>online<>VTX",
+      "object": "model",
+      "created": 1763528060,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gpt-5<>AZR",
+      "object": "model",
+      "created": 1756251356,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5",
+      "object": "model",
+      "created": 1754590881,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "fal-ai/flux-2/turbo",
+      "object": "model",
+      "created": 1766276174,
+      "owned_by": "fal"
+    },
+    {
+      "id": "DeepSeek-V3.1<>SAM",
+      "object": "model",
+      "created": 1756138015,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/minimax.minimax-m2.1<>BED",
+      "object": "model",
+      "created": 1770419901,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "MiniMax-M2.1<>MMX",
+      "object": "model",
+      "created": 1766421699,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2.1<>NOV",
+      "object": "model",
+      "created": 1766815307,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2.1<>OPR",
+      "object": "model",
+      "created": 1766506203,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "MiniMax-M2.1-lightning<>MMX",
+      "object": "model",
+      "created": 1769653901,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "gemini-2.5-flash-lite-preview-09-2025<>GAI",
+      "object": "model",
+      "created": 1758847728,
+      "owned_by": "Google"
+    },
+    {
+      "id": "mistral-large-2512",
+      "object": "model",
+      "created": 1764692448,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-large-3-675b-instruct<>BED",
+      "object": "model",
+      "created": 1764874958,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mistral-large-2512<>OPR",
+      "object": "model",
+      "created": 1764875134,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "imagen-4.0-generate-001",
+      "object": "model",
+      "created": 1761957756,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gpt-5.1-chat<>AZR",
+      "object": "model",
+      "created": 1763517681,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.1-chat-latest",
+      "object": "model",
+      "created": 1763060888,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/minimax.minimax-m2<>BED",
+      "object": "model",
+      "created": 1764874562,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "MiniMax-M2<>MMX",
+      "object": "model",
+      "created": 1769653961,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2<>NOV",
+      "object": "model",
+      "created": 1761581245,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2<>OPR",
+      "object": "model",
+      "created": 1761760493,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "gpt-5-codex<>medium",
+      "object": "model",
+      "created": 1758649410,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-5-codex<>OPR",
+      "object": "model",
+      "created": 1758659094,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gemini-3-flash-preview<>online<>GAI",
+      "object": "model",
+      "created": 1765989225,
+      "owned_by": "Google"
+    },
+    {
+      "id": "fal-ai/flux-2",
+      "object": "model",
+      "created": 1764093186,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "qwen/qwen3-omni-30b-a3b-instruct<>NOV",
+      "object": "model",
+      "created": 1759122298,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gpt-5.1-2025-11-13<>none<>web_search_preview",
+      "object": "model",
+      "created": 1763078918,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-exp<>NOV",
+      "object": "model",
+      "created": 1759163862,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-exp<>OPR",
+      "object": "model",
+      "created": 1759156825,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "glm-4.6<>ZAI",
+      "object": "model",
+      "created": 1759229711,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-4.6<>BST",
+      "object": "model",
+      "created": 1760724155,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-4.6<>CHT",
+      "object": "model",
+      "created": 1761760485,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-4.6-TEE<>CHT",
+      "object": "model",
+      "created": 1767854144,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/glm-4.6<>NOV",
+      "object": "model",
+      "created": 1759248041,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-4.6<>OPR",
+      "object": "model",
+      "created": 1759335033,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-4.6:exacto<>OPR",
+      "object": "model",
+      "created": 1761154993,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "grok-4-0709<>XAI",
+      "object": "model",
+      "created": 1752123859,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "x-ai/grok-4<>OPR",
+      "object": "model",
+      "created": 1752124470,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "fal-ai/flux-2/flash",
+      "object": "model",
+      "created": 1766276168,
+      "owned_by": "fal"
+    },
+    {
+      "id": "gemini-2.5-flash-lite-preview-09-2025<>VTX",
+      "object": "model",
+      "created": 1758822564,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite-preview-09-2025<>OPR",
+      "object": "model",
+      "created": 1758822484,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-3-flash-preview<>thinking-online<>GAI",
+      "object": "model",
+      "created": 1765989299,
+      "owned_by": "Google"
+    },
+    {
+      "id": "qwen-plus",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "glm-4.7<>ZAI",
+      "object": "model",
+      "created": 1766422623,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-4.7<>BED",
+      "object": "model",
+      "created": 1770430353,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-glm-4.7<>CER",
+      "object": "model",
+      "created": 1767923701,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-4.7-TEE<>CHT",
+      "object": "model",
+      "created": 1767854160,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "nex-agi/deepseek-v3.1-nex-n1<>OPR",
+      "object": "model",
+      "created": 1767978603,
+      "owned_by": "Nex AGI"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "object": "model",
+      "created": 1750192814,
+      "owned_by": "Google"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1<>BST",
+      "object": "model",
+      "created": 1758235105,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1<>TAI",
+      "object": "model",
+      "created": 1756223152,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "gpt-5-mini<>AZR",
+      "object": "model",
+      "created": 1756248520,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-mini-2025-08-07",
+      "object": "model",
+      "created": 1755190652,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "seed-1-8-251228<>ARK",
+      "object": "model",
+      "created": 1768300637,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "Qwen/Qwen3.5-397B-A17B-TEE<>CHT",
+      "object": "model",
+      "created": 1771312120,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b<>NOV",
+      "object": "model",
+      "created": 1771272442,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3.5-397B-A17B-FP4<>TAI",
+      "object": "model",
+      "created": 1772583227,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b<>OPR",
+      "object": "model",
+      "created": 1771247897,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3.5-plus-02-15<>OPR",
+      "object": "model",
+      "created": 1771272383,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M2.5-TEE<>CHT",
+      "object": "model",
+      "created": 1771176170,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2.5-highspeed<>NOV",
+      "object": "model",
+      "created": 1772424905,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "reve-create@20250915",
+      "object": "model",
+      "created": 1769828613,
+      "owned_by": "Reve"
+    },
+    {
+      "id": "qwen3-max-preview<>thinking",
+      "object": "model",
+      "created": 1762184698,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gpt-4o<>AZR",
+      "object": "model",
+      "created": 1743108512,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4o",
+      "object": "model",
+      "created": 1727592996,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4o:extended<>OPR",
+      "object": "model",
+      "created": 1743118306,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4o<>OPR",
+      "object": "model",
+      "created": 1743118300,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "o3-pro-2025-06-10",
+      "object": "model",
+      "created": 1749588922,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.1-codex-max",
+      "object": "model",
+      "created": 1764874337,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-5.1-codex-max<>OPR",
+      "object": "model",
+      "created": 1764958863,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-mini<>minimal<>AZR",
+      "object": "model",
+      "created": 1756251386,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-mini<>minimal",
+      "object": "model",
+      "created": 1754600981,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "solar-open<>high",
+      "object": "model",
+      "created": 1767948709,
+      "owned_by": "Upstage"
+    },
+    {
+      "id": "claude-sonnet-4-5@20250929<>online<>VTX",
+      "object": "model",
+      "created": 1772444870,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "us.amazon.nova-2-lite-v1:0<>BED",
+      "object": "model",
+      "created": 1764874490,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "amazon/nova-2-lite-v1<>OPR",
+      "object": "model",
+      "created": 1764697961,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1<>CHT",
+      "object": "model",
+      "created": 1755810754,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1-TEE<>CHT",
+      "object": "model",
+      "created": 1765988070,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "accounts/fireworks/models/deepseek-v3p1<>FWK",
+      "object": "model",
+      "created": 1755810847,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3.1<>NOV",
+      "object": "model",
+      "created": 1755810724,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3.1<>OPR",
+      "object": "model",
+      "created": 1755781477,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3.1-terminus:exacto<>OPR",
+      "object": "model",
+      "created": 1761154821,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "gpt-5<>low<>AZR",
+      "object": "model",
+      "created": 1756251384,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5<>low",
+      "object": "model",
+      "created": 1754598139,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-fp8<>NOV",
+      "object": "model",
+      "created": 1751909532,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Thinking-2507<>CHT",
+      "object": "model",
+      "created": 1754543740,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b<>OPR",
+      "object": "model",
+      "created": 1745884789,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "MiniMax-M2.5-lightning<>MMX",
+      "object": "model",
+      "created": 1770911454,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-30b-a3b:free<>OPR",
+      "object": "model",
+      "created": 1765816843,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M2.5<>BST",
+      "object": "model",
+      "created": 1771272261,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "accounts/fireworks/models/minimax-m2p5<>FWK",
+      "object": "model",
+      "created": 1771626670,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "MiniMax-M2.5<>MMX",
+      "object": "model",
+      "created": 1770910486,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2.5<>NOV",
+      "object": "model",
+      "created": 1770920511,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M2.5<>TAI",
+      "object": "model",
+      "created": 1771272236,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2.5<>OPR",
+      "object": "model",
+      "created": 1770920551,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "qwen-max",
+      "object": "model",
+      "created": 1727592996,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen-max-2025-01-25",
+      "object": "model",
+      "created": 1738196261,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3-0324-TEE<>CHT",
+      "object": "model",
+      "created": 1765816532,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "gemini-2.5-flash-lite-preview-09-2025<>thinking<>VTX",
+      "object": "model",
+      "created": 1758908345,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gpt-5<>high<>web_search_preview",
+      "object": "model",
+      "created": 1754665380,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-codex<>low",
+      "object": "model",
+      "created": 1758649449,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "Kimi-K2-Thinking<>AZR",
+      "object": "model",
+      "created": 1769747252,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/moonshot.kimi-k2-thinking<>BED",
+      "object": "model",
+      "created": 1764874605,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "kimi-k2-thinking<>MOS",
+      "object": "model",
+      "created": 1762422920,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "gemini-2.5-flash<>nonthinking",
+      "object": "model",
+      "created": 1750194353,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-2.5-flash<>GAI",
+      "object": "model",
+      "created": 1758847704,
+      "owned_by": "Google"
+    },
+    {
+      "id": "deepseek/deepseek-r1-turbo<>NOV",
+      "object": "model",
+      "created": 1751909647,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "DeepSeek-R1",
+      "object": "model",
+      "created": 1739900466,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/qwen.qwen3-32b-v1:0<>BED",
+      "object": "model",
+      "created": 1758232782,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-32B-TEE<>CHT",
+      "object": "model",
+      "created": 1773650009,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gemini-2.5-flash-lite<>nonthinking<>VTX",
+      "object": "model",
+      "created": 1753272009,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-2.5-flash-lite<>GAI",
+      "object": "model",
+      "created": 1758847546,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite<>OPR",
+      "object": "model",
+      "created": 1753202434,
+      "owned_by": "Google"
+    },
+    {
+      "id": "deepseek/deepseek-v3-turbo<>NOV",
+      "object": "model",
+      "created": 1751909775,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "gpt-4.1<>AZR",
+      "object": "model",
+      "created": 1745443381,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4.1-2025-04-14",
+      "object": "model",
+      "created": 1744651680,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4.1<>OPR",
+      "object": "model",
+      "created": 1744683099,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "claude-sonnet-4@20250514<>VTX",
+      "object": "model",
+      "created": 1748737353,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "claude-sonnet-4-20250514",
+      "object": "model",
+      "created": 1747932631,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4<>OPR",
+      "object": "model",
+      "created": 1747938548,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-exp<>thinking<>OPR",
+      "object": "model",
+      "created": 1759156870,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-oss-20b-1:0<>BED",
+      "object": "model",
+      "created": 1758229177,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-oss-safeguard-20b<>BED",
+      "object": "model",
+      "created": 1764874816,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-20b<>CHT",
+      "object": "model",
+      "created": 1755619705,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-20b<>GRQ",
+      "object": "model",
+      "created": 1754413695,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-20b<>NOV",
+      "object": "model",
+      "created": 1754497420,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-20b<>TAI",
+      "object": "model",
+      "created": 1754541146,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-20b<>OPR",
+      "object": "model",
+      "created": 1754415887,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "seed-2-0-lite-260228<>ARK",
+      "object": "model",
+      "created": 1772767745,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "gpt-5.2-codex<>high<>AZR",
+      "object": "model",
+      "created": 1768458083,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-codex<>high",
+      "object": "model",
+      "created": 1768443009,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-codex<>high<>OPR",
+      "object": "model",
+      "created": 1768457327,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3-0324<>BST",
+      "object": "model",
+      "created": 1752368809,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3-0324<>CHT",
+      "object": "model",
+      "created": 1754544970,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3-0324<>NOV",
+      "object": "model",
+      "created": 1751909785,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "grok-3<>XAI",
+      "object": "model",
+      "created": 1752123244,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "x-ai/grok-3<>OPR",
+      "object": "model",
+      "created": 1750438013,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "fal-ai/qwen-image-2512",
+      "object": "model",
+      "created": 1767198899,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "deepseek/deepseek-v3.1-terminus<>thinking<>OPR",
+      "object": "model",
+      "created": 1758556967,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "fal-ai/bytedance/seedream/v3/text-to-image",
+      "object": "model",
+      "created": 1753145879,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "bytedance/seedream-3",
+      "object": "model",
+      "created": 1753146088,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "grok-4-fast-reasoning<>online<>AZR",
+      "object": "model",
+      "created": 1769688346,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "grok-3-fast<>XAI",
+      "object": "model",
+      "created": 1752123462,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "meituan/longcat-flash-chat<>OPR",
+      "object": "model",
+      "created": 1757549978,
+      "owned_by": "Meituan"
+    },
+    {
+      "id": "gemini-2.5-flash-lite<>thinking<>VTX",
+      "object": "model",
+      "created": 1753272622,
+      "owned_by": "Google"
+    },
+    {
+      "id": "moonshotai/kimi-k2-instruct<>GRQ",
+      "object": "model",
+      "created": 1752594413,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "glm-4.5-airx<>ZAI",
+      "object": "model",
+      "created": 1758818686,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "gpt-4.1-mini<>AZR",
+      "object": "model",
+      "created": 1745443396,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4.1-mini-2025-04-14",
+      "object": "model",
+      "created": 1744651694,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4.1-mini<>OPR",
+      "object": "model",
+      "created": 1744683084,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "glm-4.5<>ZAI",
+      "object": "model",
+      "created": 1758758726,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/glm-4.5<>NOV",
+      "object": "model",
+      "created": 1753720486,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-4.5<>OPR",
+      "object": "model",
+      "created": 1753720047,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "gpt-5.1-codex<>medium<>AZR",
+      "object": "model",
+      "created": 1763517867,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.1-codex<>medium",
+      "object": "model",
+      "created": 1763059957,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "mistral-medium-2505",
+      "object": "model",
+      "created": 1746630353,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "zai-org/GLM-4.7-FP8<>CHT",
+      "object": "model",
+      "created": 1769107596,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "yupp-lambdarank-router<>YPR",
+      "object": "model",
+      "created": 1771959326,
+      "owned_by": "Yupp"
+    },
+    {
+      "id": "baidu/ernie-4.5-300b-a47b-paddle<>NOV",
+      "object": "model",
+      "created": 1751586601,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "baidu/ernie-4.5-300b-a47b<>OPR",
+      "object": "model",
+      "created": 1751304745,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8<>TAI",
+      "object": "model",
+      "created": 1753449951,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder-480b-a35b-instruct<>NOV",
+      "object": "model",
+      "created": 1753309944,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder<>OPR",
+      "object": "model",
+      "created": 1753224317,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder:exacto<>OPR",
+      "object": "model",
+      "created": 1761154976,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "beluga-0213-1<>ANV",
+      "object": "model",
+      "created": 1771968969,
+      "owned_by": "Mystery"
+    },
+    {
+      "id": "gpt-5.2-codex<>AZR",
+      "object": "model",
+      "created": 1768458201,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-codex",
+      "object": "model",
+      "created": 1768415740,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-5.2-codex<>OPR",
+      "object": "model",
+      "created": 1768415765,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "qwen/qwq-32b",
+      "object": "model",
+      "created": 1741217013,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-32B<>CHT",
+      "object": "model",
+      "created": 1754544130,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-32b<>GRQ",
+      "object": "model",
+      "created": 1749605254,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen3-32B<>SAM",
+      "object": "model",
+      "created": 1745967786,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-32b-fp8<>NOV",
+      "object": "model",
+      "created": 1751909564,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-32b<>OPR",
+      "object": "model",
+      "created": 1745884849,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "moonshotai/kimi-k2-instruct-0905<>GRQ",
+      "object": "model",
+      "created": 1757088008,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "kimi-k2-turbo-preview<>0905<>MOS",
+      "object": "model",
+      "created": 1757049301,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "gpt-5.2<>high<>web_search_preview<>AZR",
+      "object": "model",
+      "created": 1765791221,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-2025-12-11<>high<>web_search_preview",
+      "object": "model",
+      "created": 1765479770,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "mammoth-newt-0226<>ANV",
+      "object": "model",
+      "created": 1772659176,
+      "owned_by": "Mystery"
+    },
+    {
+      "id": "seed-2-0-mini-260215<>medium<>ARK",
+      "object": "model",
+      "created": 1771163633,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-mini<>medium<>OPR",
+      "object": "model",
+      "created": 1772140541,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "qwen3-vl-235b-a22b-thinking",
+      "object": "model",
+      "created": 1758665793,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking<>NOV",
+      "object": "model",
+      "created": 1758731107,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking<>OPR",
+      "object": "model",
+      "created": 1758670145,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Thinking-2507<>TAI",
+      "object": "model",
+      "created": 1755191484,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507<>NOV",
+      "object": "model",
+      "created": 1753479942,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen3-235b-a22b-thinking-2507",
+      "object": "model",
+      "created": 1753443761,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507<>OPR",
+      "object": "model",
+      "created": 1753453060,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3<>TAI",
+      "object": "model",
+      "created": 1743897884,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3<>CHT",
+      "object": "model",
+      "created": 1755109290,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5<>OPR",
+      "object": "model",
+      "created": 1760112462,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/nvidia.nemotron-nano-3-30b<>BED",
+      "object": "model",
+      "created": 1766815295,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-30b-a3b:free<>no-think<>OPR",
+      "object": "model",
+      "created": 1765821655,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-30b-a3b<>OPR",
+      "object": "model",
+      "created": 1766084637,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "command-nightly",
+      "object": "model",
+      "created": 1744917198,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "command-a-03-2025",
+      "object": "model",
+      "created": 1742229932,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "cohere/command-a<>OPR",
+      "object": "model",
+      "created": 1743117232,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-fp8<>NOV",
+      "object": "model",
+      "created": 1751909555,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B<>CHT",
+      "object": "model",
+      "created": 1754543907,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b<>OPR",
+      "object": "model",
+      "created": 1745884827,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "fal-ai/imagen3",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Google"
+    },
+    {
+      "id": "replicate/google/imagen-3",
+      "object": "model",
+      "created": 1748627732,
+      "owned_by": "Google"
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3.1<>thinking<>OPR",
+      "object": "model",
+      "created": 1755834744,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "qwen3-max-2026-01-23",
+      "object": "model",
+      "created": 1769441390,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gpt-4.1-nano<>AZR",
+      "object": "model",
+      "created": 1745443409,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4.1-nano-2025-04-14",
+      "object": "model",
+      "created": 1744651707,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4.1-nano<>OPR",
+      "object": "model",
+      "created": 1744683093,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "solar-pro2-251215",
+      "object": "model",
+      "created": 1765816657,
+      "owned_by": "Upstage"
+    },
+    {
+      "id": "kimi-k2-0905-preview<>MOS",
+      "object": "model",
+      "created": 1757048353,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/kimi-k2-0905<>NOV",
+      "object": "model",
+      "created": 1757088016,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/kimi-k2-0905<>OPR",
+      "object": "model",
+      "created": 1757087976,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "DeepSeek-V3.2<>AZR",
+      "object": "model",
+      "created": 1769747556,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "DeepSeek-V3.2-Speciale<>AZR",
+      "object": "model",
+      "created": 1769747664,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "DeepSeek-V3.2<>SAM",
+      "object": "model",
+      "created": 1768506347,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3.2-TEE<>CHT",
+      "object": "model",
+      "created": 1765987738,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-speciale<>OPR",
+      "object": "model",
+      "created": 1764601795,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "Qwen/Qwen3-14B<>CHT",
+      "object": "model",
+      "created": 1755108334,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-14b<>OPR",
+      "object": "model",
+      "created": 1745908979,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "deepseek/deepseek-r1-0528<>NOV",
+      "object": "model",
+      "created": 1751909669,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-0528<>TAI",
+      "object": "model",
+      "created": 1756962743,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "DeepSeek-R1-0528<>SAM",
+      "object": "model",
+      "created": 1748997325,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-r1-0528<>OPR",
+      "object": "model",
+      "created": 1748459314,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "gpt-5.1-codex-mini<>high<>AZR",
+      "object": "model",
+      "created": 1763517970,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.1-codex-mini<>high",
+      "object": "model",
+      "created": 1763062745,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "qwen3-vl-30b-a3b-instruct",
+      "object": "model",
+      "created": 1759549227,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct<>NOV",
+      "object": "model",
+      "created": 1760940711,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct<>OPR",
+      "object": "model",
+      "created": 1760045531,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "o4-mini<>AZR",
+      "object": "model",
+      "created": 1750746684,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "o4-mini",
+      "object": "model",
+      "created": 1744826911,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/o4-mini<>OPR",
+      "object": "model",
+      "created": 1744826946,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "FLUX.1-Kontext-pro<>AIG",
+      "object": "model",
+      "created": 1757972580,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "fal-ai/flux-pro/kontext/text-to-image",
+      "object": "model",
+      "created": 1748578211,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-pro",
+      "object": "model",
+      "created": 1748909495,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "mistralai/mistral-medium-3<>OPR",
+      "object": "model",
+      "created": 1746630356,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "glm-4.6v<>ZAI",
+      "object": "model",
+      "created": 1765198849,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/GLM-4.6V<>CHT",
+      "object": "model",
+      "created": 1765478277,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/glm-4.6v<>NOV",
+      "object": "model",
+      "created": 1765212666,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-4.6v<>OPR",
+      "object": "model",
+      "created": 1765212679,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "gemini-2.0-flash-001",
+      "object": "model",
+      "created": 1740165832,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemini-2.0-flash-001<>OPR",
+      "object": "model",
+      "created": 1743117459,
+      "owned_by": "Google"
+    },
+    {
+      "id": "fal-ai/flux-pro/kontext/max/text-to-image",
+      "object": "model",
+      "created": 1748578212,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-max",
+      "object": "model",
+      "created": 1748909496,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "seed-1-6-250615<>ARK",
+      "object": "model",
+      "created": 1758162469,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "bytedance-seed/seed-1.6<>OPR",
+      "object": "model",
+      "created": 1766506287,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "claude-sonnet-4-20250514<>thinking-online",
+      "object": "model",
+      "created": 1751397799,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "gemini-2.0-flash-lite-001",
+      "object": "model",
+      "created": 1740532841,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemini-2.0-flash-lite-001<>OPR",
+      "object": "model",
+      "created": 1743117466,
+      "owned_by": "Google"
+    },
+    {
+      "id": "grok-4-1-fast-reasoning<>online<>XAI",
+      "object": "model",
+      "created": 1763624489,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "gpt-5.2-codex<>low<>AZR",
+      "object": "model",
+      "created": 1768457952,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-codex<>low",
+      "object": "model",
+      "created": 1768443028,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.2-codex<>low<>OPR",
+      "object": "model",
+      "created": 1768457193,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/o4-mini-high<>OPR",
+      "object": "model",
+      "created": 1744826937,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "us.deepseek.r1-v1:0<>BED",
+      "object": "model",
+      "created": 1743110195,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1<>TAI",
+      "object": "model",
+      "created": 1743897807,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-r1",
+      "object": "model",
+      "created": 1737441949,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "gemini-2.5-pro<>online",
+      "object": "model",
+      "created": 1750193201,
+      "owned_by": "Google"
+    },
+    {
+      "id": "ServiceNow-AI/Apriel-1.5-15b-Thinker<>TAI",
+      "object": "model",
+      "created": 1759441669,
+      "owned_by": "ServiceNow AI"
+    },
+    {
+      "id": "o3<>AZR",
+      "object": "model",
+      "created": 1745443763,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "o3",
+      "object": "model",
+      "created": 1744826898,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "qwen3-30b-a3b-thinking-2507",
+      "object": "model",
+      "created": 1753890442,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-thinking-2507<>OPR",
+      "object": "model",
+      "created": 1757910225,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "gpt-5.1-codex-mini<>medium<>AZR",
+      "object": "model",
+      "created": 1763517933,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5.1-codex-mini<>medium",
+      "object": "model",
+      "created": 1763059982,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "o1<>AZR",
+      "object": "model",
+      "created": 1743108544,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/o1",
+      "object": "model",
+      "created": 1734497087,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-32B-Instruct<>CHT",
+      "object": "model",
+      "created": 1755108170,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "o1-pro-2025-03-19",
+      "object": "model",
+      "created": 1742426818,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-nano<>AZR",
+      "object": "model",
+      "created": 1756251667,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-nano-2025-08-07",
+      "object": "model",
+      "created": 1755190665,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-thinking<>NOV",
+      "object": "model",
+      "created": 1757623802,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen3-next-80b-a3b-thinking",
+      "object": "model",
+      "created": 1757614049,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-thinking<>OPR",
+      "object": "model",
+      "created": 1757623683,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Llama-4-Scout-17B-16E-Instruct<>AZR",
+      "object": "model",
+      "created": 1749100014,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct<>BST",
+      "object": "model",
+      "created": 1752368706,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-4-scout-17b-16e-instruct<>GRQ",
+      "object": "model",
+      "created": 1743898139,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-4-scout-17b-16e-instruct<>NOV",
+      "object": "model",
+      "created": 1751909900,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-4-scout<>OPR",
+      "object": "model",
+      "created": 1743886323,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "fal-ai/flux-2/klein/4b",
+      "object": "model",
+      "created": 1768588371,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "ministral-14b-2512",
+      "object": "model",
+      "created": 1764874987,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.ministral-3-14b-instruct<>BED",
+      "object": "model",
+      "created": 1764874898,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/ministral-14b-2512<>OPR",
+      "object": "model",
+      "created": 1764885722,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "replicate/minimax/image-01",
+      "object": "model",
+      "created": 1748627735,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "deepcogito/cogito-v2-1-671b<>TAI",
+      "object": "model",
+      "created": 1766819353,
+      "owned_by": "DeepCogito"
+    },
+    {
+      "id": "deepcogito/cogito-v2.1-671b<>OPR",
+      "object": "model",
+      "created": 1763597680,
+      "owned_by": "DeepCogito"
+    },
+    {
+      "id": "claude-sonnet-4-20250514<>online",
+      "object": "model",
+      "created": 1751397561,
+      "owned_by": "Anthropic"
+    },
+    {
+      "id": "Llama-4-Maverick-17B-128E-Instruct-FP8<>AZR",
+      "object": "model",
+      "created": 1749100210,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "Llama-4-Maverick-17B-128E-Instruct<>SAM",
+      "object": "model",
+      "created": 1744242724,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8<>NOV",
+      "object": "model",
+      "created": 1751909893,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8<>TAI",
+      "object": "model",
+      "created": 1743898121,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-4-maverick<>OPR",
+      "object": "model",
+      "created": 1743886313,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "qwen/qwen3-8b-fp8<>NOV",
+      "object": "model",
+      "created": 1751909575,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-8b<>OPR",
+      "object": "model",
+      "created": 1746028606,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "fal-ai/imagen4/preview/fast",
+      "object": "model",
+      "created": 1753469645,
+      "owned_by": "Google"
+    },
+    {
+      "id": "deepseek/deepseek-prover-v2-671b<>NOV",
+      "object": "model",
+      "created": 1751909638,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "qwen3-vl-30b-a3b-thinking",
+      "object": "model",
+      "created": 1759549154,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-thinking<>NOV",
+      "object": "model",
+      "created": 1760940718,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-thinking<>OPR",
+      "object": "model",
+      "created": 1760045548,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "mistralai/mistral-small-3.1-24b-instruct-2503",
+      "object": "model",
+      "created": 1742249545,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "devstral-small-2507",
+      "object": "model",
+      "created": 1752159092,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "qwen/qwen3-4b-fp8<>NOV",
+      "object": "model",
+      "created": 1751909465,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "baidu/ernie-4.5-21B-a3b<>NOV",
+      "object": "model",
+      "created": 1751909599,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "baidu/ernie-4.5-21b-a3b<>OPR",
+      "object": "model",
+      "created": 1755271887,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "x-ai/grok-3-mini<>OPR",
+      "object": "model",
+      "created": 1750438080,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "x-ai/grok-3-mini-beta<>OPR",
+      "object": "model",
+      "created": 1744256569,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "mistral-large-pixtral-2411",
+      "object": "model",
+      "created": 1743117852,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "pixtral-large-latest",
+      "object": "model",
+      "created": 1743118006,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/pixtral-large-2411<>OPR",
+      "object": "model",
+      "created": 1743118014,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "fal-ai/recraft-v3",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Recraft"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3",
+      "object": "model",
+      "created": 1748627735,
+      "owned_by": "Recraft"
+    },
+    {
+      "id": "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE<>CHT",
+      "object": "model",
+      "created": 1773263218,
+      "owned_by": "TNG Tech"
+    },
+    {
+      "id": "tngtech/DeepSeek-TNG-R1T2-Chimera<>CHT",
+      "object": "model",
+      "created": 1754545442,
+      "owned_by": "TNG Tech"
+    },
+    {
+      "id": "kimi-k2-0711-preview<>MOS",
+      "object": "model",
+      "created": 1752342212,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/kimi-k2-instruct<>NOV",
+      "object": "model",
+      "created": 1752266104,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/Kimi-K2-Instruct<>TAI",
+      "object": "model",
+      "created": 1752470063,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/kimi-k2<>OPR",
+      "object": "model",
+      "created": 1752267101,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshotai/kimi-k2-0905:exacto<>OPR",
+      "object": "model",
+      "created": 1761154886,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "mistralai/mistral-small-3.2-24b-instruct<>OPR",
+      "object": "model",
+      "created": 1750702291,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "llama3.1-8b",
+      "object": "model",
+      "created": 1734497901,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "llama-3.1-8b-instant",
+      "object": "model",
+      "created": 1734497901,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "devstral-medium-latest",
+      "object": "model",
+      "created": 1752161912,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "devstral-medium-2507",
+      "object": "model",
+      "created": 1752159068,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/devstral-medium<>OPR",
+      "object": "model",
+      "created": 1752165592,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "fal-ai/flux-2/klein/9b/base",
+      "object": "model",
+      "created": 1768588063,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "o3-mini-2025-01-31<>low",
+      "object": "model",
+      "created": 1739520356,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "XiaomiMiMo/MiMo-V2-Flash-TEE<>CHT",
+      "object": "model",
+      "created": 1771534417,
+      "owned_by": "Xiaomi"
+    },
+    {
+      "id": "XiaomiMiMo/MiMo-V2-Flash<>CHT",
+      "object": "model",
+      "created": 1766506187,
+      "owned_by": "Xiaomi"
+    },
+    {
+      "id": "xiaomimimo/mimo-v2-flash<>NOV",
+      "object": "model",
+      "created": 1766166638,
+      "owned_by": "Xiaomi"
+    },
+    {
+      "id": "xiaomi/mimo-v2-flash<>OPR",
+      "object": "model",
+      "created": 1768506318,
+      "owned_by": "Xiaomi"
+    },
+    {
+      "id": "o3<>web_search_preview",
+      "object": "model",
+      "created": 1754665722,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5-mini<>low<>web_search_preview",
+      "object": "model",
+      "created": 1754664327,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "chutesai/Mistral-Small-3.1-24B-Instruct-2503<>CHT",
+      "object": "model",
+      "created": 1755111398,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mistral-small-3.1-24b-instruct<>OPR",
+      "object": "model",
+      "created": 1743117923,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "o3-mini<>AZR",
+      "object": "model",
+      "created": 1743541071,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "o3-mini-2025-01-31",
+      "object": "model",
+      "created": 1738374183,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/o3-mini<>OPR",
+      "object": "model",
+      "created": 1743118459,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "fal-ai/flux-1/dev",
+      "object": "model",
+      "created": 1750979810,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "Qwen/Qwen2.5-72B-Instruct<>CHT",
+      "object": "model",
+      "created": 1755108147,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen-2.5-72b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909437,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen-2.5-72b-instruct",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "fal-ai/luma-photon",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Luma"
+    },
+    {
+      "id": "replicate/luma/photon",
+      "object": "model",
+      "created": 1748627734,
+      "owned_by": "Luma"
+    },
+    {
+      "id": "gpt-5-mini<>web_search_preview",
+      "object": "model",
+      "created": 1754662678,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "inception/mercury",
+      "object": "model",
+      "created": 1751395891,
+      "owned_by": "Inception"
+    },
+    {
+      "id": "switchpoint/router<>OPR",
+      "object": "model",
+      "created": 1752274155,
+      "owned_by": "Switchpoint"
+    },
+    {
+      "id": "glm-4.7-flashx<>ZAI",
+      "object": "model",
+      "created": 1768836313,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/glm-4.7-flash<>NOV",
+      "object": "model",
+      "created": 1768844229,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-4.7-flash<>BED",
+      "object": "model",
+      "created": 1770430368,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-4.7-flash<>OPR",
+      "object": "model",
+      "created": 1768844235,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0<>BED",
+      "object": "model",
+      "created": 1743110064,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "amazon/nova-pro-v1<>OPR",
+      "object": "model",
+      "created": 1737440731,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "google/gemma-3n-E4B-it<>TAI",
+      "object": "model",
+      "created": 1750962771,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemma-3n-e4b-it<>OPR",
+      "object": "model",
+      "created": 1750961895,
+      "owned_by": "Google"
+    },
+    {
+      "id": "fal-ai/hidream-i1-fast",
+      "object": "model",
+      "created": 1744993838,
+      "owned_by": "HiDream"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-fast:17c237d753218fed0ed477cb553902b6b75735f48c128537ab829096ef3d3645",
+      "object": "model",
+      "created": 1748627729,
+      "owned_by": "HiDream"
+    },
+    {
+      "id": "qwen/qwen3-coder-plus<>OPR",
+      "object": "model",
+      "created": 1758117375,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "allenai/olmo-3-7b-think<>OPR",
+      "object": "model",
+      "created": 1763769212,
+      "owned_by": "Allen AI"
+    },
+    {
+      "id": "fal-ai/minimax-image",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "grok-3-mini-fast<>XAI",
+      "object": "model",
+      "created": 1752123591,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "jamba-large-1.7-2025-07",
+      "object": "model",
+      "created": 1753733588,
+      "owned_by": "AI21"
+    },
+    {
+      "id": "grok-code-fast-1<>XAI",
+      "object": "model",
+      "created": 1756241673,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "x-ai/grok-code-fast-1<>OPR",
+      "object": "model",
+      "created": 1756239020,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "glm-4.6v-flash<>ZAI",
+      "object": "model",
+      "created": 1765230458,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "ai21/jamba-large-1.7<>OPR",
+      "object": "model",
+      "created": 1755190692,
+      "owned_by": "AI21"
+    },
+    {
+      "id": "grok-3-mini<>XAI",
+      "object": "model",
+      "created": 1752123380,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "chutesai/Mistral-Small-3.2-24B-Instruct-2506<>CHT",
+      "object": "model",
+      "created": 1755111588,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "us.meta.llama3-1-70b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110221,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-70b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110209,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3-70b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909831,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3-70b-instruct<>OPR",
+      "object": "model",
+      "created": 1743117661,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "google/gemma-3-27b-it<>NOV",
+      "object": "model",
+      "created": 1751909806,
+      "owned_by": "Google"
+    },
+    {
+      "id": "o4-mini<>web_search_preview",
+      "object": "model",
+      "created": 1754665713,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "llama-3.3-70b-versatile",
+      "object": "model",
+      "created": 1734058691,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "gemini-2.5-flash<>online",
+      "object": "model",
+      "created": 1750194414,
+      "owned_by": "Google"
+    },
+    {
+      "id": "baidu/ernie-4.5-vl-424b-a47b<>NOV",
+      "object": "model",
+      "created": 1751909616,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "baidu/ernie-4.5-vl-424b-a47b<>OPR",
+      "object": "model",
+      "created": 1755461836,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "us.meta.llama3-2-11b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110234,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "glm-4.5-flash<>ZAI",
+      "object": "model",
+      "created": 1758818773,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "mistralai/mistral-small-24b-instruct-2501<>OPR",
+      "object": "model",
+      "created": 1743117915,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistral-small-2506",
+      "object": "model",
+      "created": 1750701243,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "allenai/olmo-3.1-32b-instruct<>OPR",
+      "object": "model",
+      "created": 1767894868,
+      "owned_by": "Allen AI"
+    },
+    {
+      "id": "allenai/olmo-3.1-32b-think<>OPR",
+      "object": "model",
+      "created": 1767677451,
+      "owned_by": "Allen AI"
+    },
+    {
+      "id": "mistralai/devstral-small<>OPR",
+      "object": "model",
+      "created": 1747845502,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "trinity-large-preview<>PIN",
+      "object": "model",
+      "created": 1769652536,
+      "owned_by": "Arcee AI"
+    },
+    {
+      "id": "arcee-ai/trinity-large-preview:free<>OPR",
+      "object": "model",
+      "created": 1769618393,
+      "owned_by": "Arcee AI"
+    },
+    {
+      "id": "gpt-4o-mini<>AZR",
+      "object": "model",
+      "created": 1743018455,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "object": "model",
+      "created": 1727592996,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4o-mini<>OPR",
+      "object": "model",
+      "created": 1743118349,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2-turbo",
+      "object": "model",
+      "created": 1748627730,
+      "owned_by": "Ideogram"
+    },
+    {
+      "id": "mistralai/Mistral-Small-24B-Instruct-2501<>TAI",
+      "object": "model",
+      "created": 1743898261,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "seed-1-6-flash-250715<>ARK",
+      "object": "model",
+      "created": 1758164165,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "bytedance-seed/seed-1.6-flash<>OPR",
+      "object": "model",
+      "created": 1766506300,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/google.gemma-3-27b-it<>BED",
+      "object": "model",
+      "created": 1764874523,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "object": "model",
+      "created": 1741846837,
+      "owned_by": "Google"
+    },
+    {
+      "id": "FLUX-1.1-pro<>AIG",
+      "object": "model",
+      "created": 1757972602,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "fal-ai/flux-pro/new",
+      "object": "model",
+      "created": 1741926736,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-1.1-pro",
+      "object": "model",
+      "created": 1748627728,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct-Turbo<>TAI",
+      "object": "model",
+      "created": 1743897691,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen2.5-14b-instruct-1m",
+      "object": "model",
+      "created": 1738199680,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-8b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110215,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3-8b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909841,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct-Lite<>TAI",
+      "object": "model",
+      "created": 1743898050,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.ministral-3-8b-instruct<>BED",
+      "object": "model",
+      "created": 1764874943,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3-8b-instruct<>OPR",
+      "object": "model",
+      "created": 1743117669,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "prime-intellect/intellect-3<>OPR",
+      "object": "model",
+      "created": 1764261890,
+      "owned_by": "Prime Intellect"
+    },
+    {
+      "id": "gpt-35-turbo<>AZR",
+      "object": "model",
+      "created": 1743108476,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-3.5-turbo-0125",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "Llama-3.3-Swallow-70B-Instruct-v0.4<>SAM",
+      "object": "model",
+      "created": 1752086899,
+      "owned_by": "TokyoTechLLM"
+    },
+    {
+      "id": "Qwen/Qwen2.5-VL-32B-Instruct<>CHT",
+      "object": "model",
+      "created": 1755108263,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-32b-instruct<>OPR",
+      "object": "model",
+      "created": 1743886332,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "sonar-pro",
+      "object": "model",
+      "created": 1738373926,
+      "owned_by": "Perplexity"
+    },
+    {
+      "id": "perplexity/sonar-pro-search<>OPR",
+      "object": "model",
+      "created": 1761859798,
+      "owned_by": "Perplexity"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/google.gemma-3-12b-it<>BED",
+      "object": "model",
+      "created": 1764874512,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemma-3-12b-it<>NOV",
+      "object": "model",
+      "created": 1756998892,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemma-3-12b-it<>OPR",
+      "object": "model",
+      "created": 1743713682,
+      "owned_by": "Google"
+    },
+    {
+      "id": "Krutrim-2",
+      "object": "model",
+      "created": 1751394774,
+      "owned_by": "Ola Krutrim"
+    },
+    {
+      "id": "o3-mini-2025-01-31<>high",
+      "object": "model",
+      "created": 1739520315,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/o3-mini-high<>OPR",
+      "object": "model",
+      "created": 1743118467,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gemini-2.5-flash<>nonthinking-online",
+      "object": "model",
+      "created": 1750194683,
+      "owned_by": "Google"
+    },
+    {
+      "id": "moonshot-v1-128k<>MOS",
+      "object": "model",
+      "created": 1752350914,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "fal-ai/qwen-image",
+      "object": "model",
+      "created": 1754432391,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo<>TAI",
+      "object": "model",
+      "created": 1743898031,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "qwen2.5-7b-instruct-1m",
+      "object": "model",
+      "created": 1738199346,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen2.5-7b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909457,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen-2.5-7b-instruct<>OPR",
+      "object": "model",
+      "created": 1743116973,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "fal-ai/recraft-20b",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Recraft"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-20b",
+      "object": "model",
+      "created": 1748627736,
+      "owned_by": "Recraft"
+    },
+    {
+      "id": "c4ai-aya-expanse-32b",
+      "object": "model",
+      "created": 1743117208,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "gpt-5<>web_search_preview",
+      "object": "model",
+      "created": 1754662651,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "compound-beta<>GRQ",
+      "object": "model",
+      "created": 1744737655,
+      "owned_by": "Groq"
+    },
+    {
+      "id": "compound-beta-mini<>GRQ",
+      "object": "model",
+      "created": 1744737636,
+      "owned_by": "Groq"
+    },
+    {
+      "id": "NovaSky-AI/Sky-T1-32B-Preview<>DIN",
+      "object": "model",
+      "created": 1744242741,
+      "owned_by": "NovaSky AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/ai21.jamba-1-5-large-v1:0<>BED",
+      "object": "model",
+      "created": 1743018325,
+      "owned_by": "AI21"
+    },
+    {
+      "id": "solar-open<>low",
+      "object": "model",
+      "created": 1767948388,
+      "owned_by": "Upstage"
+    },
+    {
+      "id": "qwen/qwen-2.5-coder-32b-instruct",
+      "object": "model",
+      "created": 1731494723,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "codestral-latest",
+      "object": "model",
+      "created": 1743117778,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "essentialai/rnj-1-instruct<>TAI",
+      "object": "model",
+      "created": 1764992320,
+      "owned_by": "Essential AI"
+    },
+    {
+      "id": "essentialai/rnj-1-instruct<>OPR",
+      "object": "model",
+      "created": 1765212674,
+      "owned_by": "Essential AI"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-16k<>OPR",
+      "object": "model",
+      "created": 1743118202,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "command-r7b-12-2024",
+      "object": "model",
+      "created": 1742230032,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "cohere/command-r7b-12-2024<>OPR",
+      "object": "model",
+      "created": 1743117274,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "inception/mercury-coder-small-beta<>OPR",
+      "object": "model",
+      "created": 1746039087,
+      "owned_by": "Inception"
+    },
+    {
+      "id": "command-r-08-2024",
+      "object": "model",
+      "created": 1742230004,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-v1:0<>BED",
+      "object": "model",
+      "created": 1743110182,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "us.meta.llama3-1-8b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110227,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909849,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "Meta-Llama-3.1-8B-Instruct",
+      "object": "model",
+      "created": 1739550522,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct-bf16<>NOV",
+      "object": "model",
+      "created": 1751909857,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "open-mistral-nemo",
+      "object": "model",
+      "created": 1743117983,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "moonshot-v1-auto<>MOS",
+      "object": "model",
+      "created": 1752351105,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "magistral-medium-2509",
+      "object": "model",
+      "created": 1758118300,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "allenai/olmo-3-7b-instruct<>OPR",
+      "object": "model",
+      "created": 1763769257,
+      "owned_by": "Allen AI"
+    },
+    {
+      "id": "openai/gpt-5-image<>OPR",
+      "object": "model",
+      "created": 1760724108,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "open-mixtral-8x7b",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "Krutrim-spectre-v2",
+      "object": "model",
+      "created": 1741096231,
+      "owned_by": "Ola Krutrim"
+    },
+    {
+      "id": "nousresearch/hermes-2-pro-llama-3-8b<>NOV",
+      "object": "model",
+      "created": 1751909950,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "nousresearch/hermes-2-pro-llama-3-8b<>OPR",
+      "object": "model",
+      "created": 1743118120,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/google.gemma-3-4b-it<>BED",
+      "object": "model",
+      "created": 1764874539,
+      "owned_by": "Google"
+    },
+    {
+      "id": "google/gemma-3-4b-it<>OPR",
+      "object": "model",
+      "created": 1743713691,
+      "owned_by": "Google"
+    },
+    {
+      "id": "baidu/ernie-4.5-21B-a3b-thinking<>NOV",
+      "object": "model",
+      "created": 1759089604,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "baidu/ernie-4.5-21b-a3b-thinking<>OPR",
+      "object": "model",
+      "created": 1760055494,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "ministral-8b-2410",
+      "object": "model",
+      "created": 1729244452,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "command-r-plus-08-2024",
+      "object": "model",
+      "created": 1746052206,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "command-r-plus",
+      "object": "model",
+      "created": 1743117260,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-plus-v1:0<>BED",
+      "object": "model",
+      "created": 1743110188,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "open-mistral-nemo-2407",
+      "object": "model",
+      "created": 1737440731,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mistral-nemo<>NOV",
+      "object": "model",
+      "created": 1751909941,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mistral-nemo<>OPR",
+      "object": "model",
+      "created": 1743117879,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "thudm/glm-4-32b-0414<>NOV",
+      "object": "model",
+      "created": 1751910000,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-4-32b<>OPR",
+      "object": "model",
+      "created": 1753501745,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "gemini-2.5-flash-lite<>nonthinking-online<>VTX",
+      "object": "model",
+      "created": 1753273899,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gemini-2.0-flash-001-online",
+      "object": "model",
+      "created": 1740724274,
+      "owned_by": "Google"
+    },
+    {
+      "id": "moonshot-v1-8k<>MOS",
+      "object": "model",
+      "created": 1752351035,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "sonar-reasoning-pro",
+      "object": "model",
+      "created": 1744837864,
+      "owned_by": "Perplexity"
+    },
+    {
+      "id": "moonshot-v1-32k<>MOS",
+      "object": "model",
+      "created": 1752350989,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "fal-ai/flux-pro/v1.1-ultra",
+      "object": "model",
+      "created": 1741926784,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
+      "object": "model",
+      "created": 1748627058,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev",
+      "object": "model",
+      "created": 1749190127,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "gpt-4.1-2025-04-14<>web_search_preview",
+      "object": "model",
+      "created": 1754665728,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-instruct<>OPR",
+      "object": "model",
+      "created": 1743118224,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gemini-2.5-flash-lite<>thinking-online<>VTX",
+      "object": "model",
+      "created": 1753273955,
+      "owned_by": "Google"
+    },
+    {
+      "id": "sonar",
+      "object": "model",
+      "created": 1738373965,
+      "owned_by": "Perplexity"
+    },
+    {
+      "id": "microsoft/wizardlm-2-8x22b<>NOV",
+      "object": "model",
+      "created": 1751909908,
+      "owned_by": "Microsoft"
+    },
+    {
+      "id": "microsoft/wizardlm-2-8x22b<>OPR",
+      "object": "model",
+      "created": 1743117756,
+      "owned_by": "Microsoft"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-micro-v1:0<>BED",
+      "object": "model",
+      "created": 1743110056,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "amazon/nova-micro-v1<>OPR",
+      "object": "model",
+      "created": 1743117052,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "us.meta.llama3-3-70b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110257,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909884,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "Meta-Llama-3.3-70B-Instruct",
+      "object": "model",
+      "created": 1739550522,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "object": "model",
+      "created": 1733717288,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "google/gemma-2-27b-it<>OPR",
+      "object": "model",
+      "created": 1743117472,
+      "owned_by": "Google"
+    },
+    {
+      "id": "mistralai/mixtral-8x22b-instruct<>OPR",
+      "object": "model",
+      "created": 1743117946,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "nousresearch/hermes-4-70b<>OPR",
+      "object": "model",
+      "created": 1756241569,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "NousResearch/Hermes-4-405B-FP8<>CHT",
+      "object": "model",
+      "created": 1756241595,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "NousResearch/Hermes-4-405B-FP8-TEE<>CHT",
+      "object": "model",
+      "created": 1767854078,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "nousresearch/hermes-4-405b<>OPR",
+      "object": "model",
+      "created": 1756236680,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "fal-ai/imagen3/fast",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Google"
+    },
+    {
+      "id": "replicate/google/imagen-3-fast",
+      "object": "model",
+      "created": 1748627733,
+      "owned_by": "Google"
+    },
+    {
+      "id": "ministral-3b-2410",
+      "object": "model",
+      "created": 1729244414,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "open-mixtral-8x22b",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-llama-70b<>NOV",
+      "object": "model",
+      "created": 1751909706,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "DeepSeek-R1-Distill-Llama-70B",
+      "object": "model",
+      "created": 1739550522,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B<>CHT",
+      "object": "model",
+      "created": 1755109210,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-llama-70b<>OPR",
+      "object": "model",
+      "created": 1743117289,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "fal-ai/hidream-i1-full",
+      "object": "model",
+      "created": 1744993838,
+      "owned_by": "HiDream"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-full:3a1457ebedf387206f83c3c8b30e8ce495084c3b7d7328b5ed2d55304124851c",
+      "object": "model",
+      "created": 1748627729,
+      "owned_by": "HiDream"
+    },
+    {
+      "id": "gpt-4o-search-preview-2025-03-11",
+      "object": "model",
+      "created": 1743118332,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4o-mini-search-preview-2025-03-11",
+      "object": "model",
+      "created": 1743118355,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4-turbo",
+      "object": "model",
+      "created": 1727592996,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4-turbo<>OPR",
+      "object": "model",
+      "created": 1743118269,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "Phi-4<>AZR",
+      "object": "model",
+      "created": 1743107997,
+      "owned_by": "Microsoft"
+    },
+    {
+      "id": "microsoft/phi-4",
+      "object": "model",
+      "created": 1737440731,
+      "owned_by": "Microsoft"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mixtral-8x7b-instruct-v0:1<>BED",
+      "object": "model",
+      "created": 1743110278,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mixtral-8x7b-instruct<>OPR",
+      "object": "model",
+      "created": 1743117960,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "google/gemma-3-1b-it<>NOV",
+      "object": "model",
+      "created": 1751909794,
+      "owned_by": "Google"
+    },
+    {
+      "id": "fal-ai/luma-photon/flash",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Luma"
+    },
+    {
+      "id": "replicate/luma/photon-flash",
+      "object": "model",
+      "created": 1748627734,
+      "owned_by": "Luma"
+    },
+    {
+      "id": "fal-ai/flux-2/klein/4b/base",
+      "object": "model",
+      "created": 1768588171,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "solar-mini-250422",
+      "object": "model",
+      "created": 1753077243,
+      "owned_by": "Upstage"
+    },
+    {
+      "id": "openai/gpt-5-image-mini<>OPR",
+      "object": "model",
+      "created": 1760724169,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "nousresearch/hermes-4-405b<>reasoning<>OPR",
+      "object": "model",
+      "created": 1756237248,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev-lora",
+      "object": "model",
+      "created": 1749190128,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "ServiceNow-AI/Apriel-1.6-15b-Thinker<>TAI",
+      "object": "model",
+      "created": 1765245322,
+      "owned_by": "ServiceNow AI"
+    },
+    {
+      "id": "mistral-small-latest",
+      "object": "model",
+      "created": 1743117900,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-small-2402-v1:0<>BED",
+      "object": "model",
+      "created": 1743110271,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "open-mistral-7b",
+      "object": "model",
+      "created": 1743117976,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1<>TAI",
+      "object": "model",
+      "created": 1743898235,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "gpt-4.1-mini-2025-04-14<>web_search_preview",
+      "object": "model",
+      "created": 1754665734,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "fal-ai/stable-diffusion-v35-large",
+      "object": "model",
+      "created": 1741926839,
+      "owned_by": "Stable Diffusion"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-large",
+      "object": "model",
+      "created": 1748627737,
+      "owned_by": "Stable Diffusion"
+    },
+    {
+      "id": "stability.sd3-5-large-v1:0",
+      "object": "model",
+      "created": 1753486682,
+      "owned_by": "Stable Diffusion"
+    },
+    {
+      "id": "magistral-small-2509",
+      "object": "model",
+      "created": 1758118841,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.magistral-small-2509<>BED",
+      "object": "model",
+      "created": 1764874583,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "fal-ai/flux/schnell",
+      "object": "model",
+      "created": 1741926479,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-schnell",
+      "object": "model",
+      "created": 1748627728,
+      "owned_by": "Black Forest Labs"
+    },
+    {
+      "id": "liquid/lfm-2.2-6b<>OPR",
+      "object": "model",
+      "created": 1761243777,
+      "owned_by": "Liquid"
+    },
+    {
+      "id": "ministral-3b-2512",
+      "object": "model",
+      "created": 1764875002,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.ministral-3-3b-instruct<>BED",
+      "object": "model",
+      "created": 1764874909,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/ministral-3b-2512<>OPR",
+      "object": "model",
+      "created": 1764885787,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "inflection/inflection-3-productivity<>OPR",
+      "object": "model",
+      "created": 1743117568,
+      "owned_by": "Inflection"
+    },
+    {
+      "id": "qwen2.5-vl-72b-instruct",
+      "object": "model",
+      "created": 1738197539,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-72b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909449,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen-2.5-vl-72b-instruct<>OPR",
+      "object": "model",
+      "created": 1743116987,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-72b-instruct<>OPR",
+      "object": "model",
+      "created": 1743116980,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "inflection/inflection-3-pi<>OPR",
+      "object": "model",
+      "created": 1743117556,
+      "owned_by": "Inflection"
+    },
+    {
+      "id": "fal-ai/ideogram/v3",
+      "object": "model",
+      "created": 1752189786,
+      "owned_by": "Ideogram"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-turbo",
+      "object": "model",
+      "created": 1748627731,
+      "owned_by": "Ideogram"
+    },
+    {
+      "id": "c4ai-aya-expanse-8b",
+      "object": "model",
+      "created": 1755658281,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "nousresearch/hermes-3-llama-3.1-405b<>OPR",
+      "object": "model",
+      "created": 1743118128,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "mistral-large-2402",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-large-2402-v1:0<>BED",
+      "object": "model",
+      "created": 1743110263,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mistral-large<>OPR",
+      "object": "model",
+      "created": 1743117844,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "M2-her<>MMX",
+      "object": "model",
+      "created": 1769653773,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2-her<>OPR",
+      "object": "model",
+      "created": 1769302438,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "NousResearch/DeepHermes-3-Mistral-24B-Preview<>CHT",
+      "object": "model",
+      "created": 1755108048,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "inception/mercury-coder<>OPR",
+      "object": "model",
+      "created": 1751438023,
+      "owned_by": "Inception"
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-qwen-32b<>OPR",
+      "object": "model",
+      "created": 1743117351,
+      "owned_by": "DeepSeek"
+    },
+    {
+      "id": "liquid/lfm2-8b-a1b<>OPR",
+      "object": "model",
+      "created": 1761243809,
+      "owned_by": "Liquid"
+    },
+    {
+      "id": "pixtral-12b-latest",
+      "object": "model",
+      "created": 1743117990,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "moonshot-v1-128k-vision-preview<>MOS",
+      "object": "model",
+      "created": 1752350958,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "google/gemma-2-9b-it<>OPR",
+      "object": "model",
+      "created": 1743117478,
+      "owned_by": "Google"
+    },
+    {
+      "id": "gryphe/mythomax-l2-13b",
+      "object": "model",
+      "created": 1737440731,
+      "owned_by": "Gryphe"
+    },
+    {
+      "id": "alpindale/goliath-120b<>OPR",
+      "object": "model",
+      "created": 1743117021,
+      "owned_by": "Alpindale"
+    },
+    {
+      "id": "minimaxai/minimax-m1-80k<>NOV",
+      "object": "model",
+      "created": 1751909918,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m1<>OPR",
+      "object": "model",
+      "created": 1750202106,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "stability.stable-image-ultra-v1:1",
+      "object": "model",
+      "created": 1753488752,
+      "owned_by": "Stability AI"
+    },
+    {
+      "id": "Phi-4-mini-instruct<>AZR",
+      "object": "model",
+      "created": 1743108014,
+      "owned_by": "Microsoft"
+    },
+    {
+      "id": "tencent/hunyuan-a13b-instruct<>OPR",
+      "object": "model",
+      "created": 1752602101,
+      "owned_by": "Tencent"
+    },
+    {
+      "id": "replicate/bytedance/sdxl-lightning-4step:6f7a773af6fc3e8de9d5a3c00be77c17308914bf67772726aff83496ba1e3bbe",
+      "object": "model",
+      "created": 1749190128,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "fal-ai/z-image/turbo",
+      "object": "model",
+      "created": 1764597593,
+      "owned_by": "Tongyi-MAI"
+    },
+    {
+      "id": "replicate/stability-ai/sdxl:7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+      "object": "model",
+      "created": 1749190130,
+      "owned_by": "Stability AI"
+    },
+    {
+      "id": "fal-ai/sana",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "NVLabs"
+    },
+    {
+      "id": "gpt-5-mini<>high<>web_search_preview",
+      "object": "model",
+      "created": 1754665700,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "fal-ai/hunyuan-image/v2.1/text-to-image",
+      "object": "model",
+      "created": 1757569035,
+      "owned_by": "Tencent"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3",
+      "object": "model",
+      "created": 1748627737,
+      "owned_by": "Stable Diffusion"
+    },
+    {
+      "id": "Phi-4-reasoning<>AZR",
+      "object": "model",
+      "created": 1749098080,
+      "owned_by": "Microsoft"
+    },
+    {
+      "id": "fal-ai/stable-diffusion-v3-medium",
+      "object": "model",
+      "created": 1741927206,
+      "owned_by": "Stable Diffusion"
+    },
+    {
+      "id": "qwen2.5-vl-3b-instruct",
+      "object": "model",
+      "created": 1738198970,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "bytedance/ui-tars-1.5-7b<>OPR",
+      "object": "model",
+      "created": 1753207728,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/nvidia.nemotron-nano-12b-v2<>BED",
+      "object": "model",
+      "created": 1764874695,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "Phi-4-mini-reasoning<>AZR",
+      "object": "model",
+      "created": 1749099660,
+      "owned_by": "Microsoft"
+    },
+    {
+      "id": "fal-ai/bagel",
+      "object": "model",
+      "created": 1750459839,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "replicate/bytedance/bagel:7dd8def79e503990740db4704fa81af995d440fefe714958531d7044d2757c9c",
+      "object": "model",
+      "created": 1750459838,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "fal-ai/ideogram/v2",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Ideogram"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2",
+      "object": "model",
+      "created": 1748627730,
+      "owned_by": "Ideogram"
+    },
+    {
+      "id": "fal-ai/bria/text-to-image/fast",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Bria"
+    },
+    {
+      "id": "liquid/lfm-2.5-1.2b-thinking:free<>OPR",
+      "object": "model",
+      "created": 1768932738,
+      "owned_by": "Liquid"
+    },
+    {
+      "id": "fal-ai/bria/text-to-image/hd",
+      "object": "model",
+      "created": 1742278157,
+      "owned_by": "Bria"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion:ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4",
+      "object": "model",
+      "created": 1748627736,
+      "owned_by": "Stable Diffusion"
+    },
+    {
+      "id": "alfredpros/codellama-7b-instruct-solidity<>OPR",
+      "object": "model",
+      "created": 1744650911,
+      "owned_by": "AlfredPros"
+    },
+    {
+      "id": "openai/gpt-oss-safeguard-20b<>OPR",
+      "object": "model",
+      "created": 1761760529,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-5<>low<>web_search_preview",
+      "object": "model",
+      "created": 1754664282,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4<>AZR",
+      "object": "model",
+      "created": 1743108496,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4-0125-preview",
+      "object": "model",
+      "created": 1743118238,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "gpt-4-1106-preview",
+      "object": "model",
+      "created": 1743118245,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4<>OPR",
+      "object": "model",
+      "created": 1743118231,
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "grok-2-1212<>XAI",
+      "object": "model",
+      "created": 1752188715,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "grok-4.20-beta-0309-non-reasoning<>XAI",
+      "object": "model",
+      "created": 1773263092,
+      "owned_by": "xAI"
+    },
+    {
+      "id": "seed-2-0-mini-260215<>low<>ARK",
+      "object": "model",
+      "created": 1772762838,
+      "owned_by": "ByteDance"
+    },
+    {
+      "id": "amazon/nova-premier-v1<>OPR",
+      "object": "model",
+      "created": 1761952064,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-lite-v1:0<>BED",
+      "object": "model",
+      "created": 1743110049,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "amazon/nova-lite-v1<>OPR",
+      "object": "model",
+      "created": 1743117042,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "yupp-nn-router<>c2<>YPR",
+      "object": "model",
+      "created": 1772157561,
+      "owned_by": "Yupp"
+    },
+    {
+      "id": "yupp-nn-router<>c1<>YPR",
+      "object": "model",
+      "created": 1772157539,
+      "owned_by": "Yupp"
+    },
+    {
+      "id": "yupp-dummy-router<>YPR",
+      "object": "model",
+      "created": 1771014155,
+      "owned_by": "Yupp"
+    },
+    {
+      "id": "mistral-vibe-cli-with-tools",
+      "object": "model",
+      "created": 1770225170,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistral-tiny-latest",
+      "object": "model",
+      "created": 1743117931,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistral-small-2603",
+      "object": "model",
+      "created": 1773770052,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "labs-mistral-small-creative",
+      "object": "model",
+      "created": 1766815498,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mistral-small-creative<>OPR",
+      "object": "model",
+      "created": 1765987955,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistral-saba-latest",
+      "object": "model",
+      "created": 1743117893,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/mistral-saba<>OPR",
+      "object": "model",
+      "created": 1743118022,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "devstral-2512",
+      "object": "model",
+      "created": 1765297379,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.devstral-2-123b<>BED",
+      "object": "model",
+      "created": 1771355400,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "labs-devstral-small-2512",
+      "object": "model",
+      "created": 1765297439,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "codestral-2508",
+      "object": "model",
+      "created": 1755190587,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "mistralai/codestral-2508<>OPR",
+      "object": "model",
+      "created": 1754080593,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-7b-instruct-v0:2<>BED",
+      "object": "model",
+      "created": 1743110041,
+      "owned_by": "Mistral AI"
+    },
+    {
+      "id": "openrouter/hunter-alpha<>OPR",
+      "object": "model",
+      "created": 1773262836,
+      "owned_by": "Mystery"
+    },
+    {
+      "id": "openrouter/healer-alpha<>OPR",
+      "object": "model",
+      "created": 1773262865,
+      "owned_by": "Mystery"
+    },
+    {
+      "id": "qwen/qwen-vl-plus<>OPR",
+      "object": "model",
+      "created": 1743116926,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen-vl-max",
+      "object": "model",
+      "created": 1742203796,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-thinking<>OPR",
+      "object": "model",
+      "created": 1760546213,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-VL-8B-Instruct<>TAI",
+      "object": "model",
+      "created": 1765987965,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-instruct<>NOV",
+      "object": "model",
+      "created": 1760940732,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-instruct<>OPR",
+      "object": "model",
+      "created": 1760546162,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen-2.5-vl-7b-instruct<>OPR",
+      "object": "model",
+      "created": 1743116994,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder-next<>NOV",
+      "object": "model",
+      "created": 1770142207,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/qwen.qwen3-coder-next<>BED",
+      "object": "model",
+      "created": 1770430298,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-Next-TEE<>CHT",
+      "object": "model",
+      "created": 1771445924,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-Next<>CHT",
+      "object": "model",
+      "created": 1770225104,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-Next-FP8<>TAI",
+      "object": "model",
+      "created": 1770142074,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder-next<>OPR",
+      "object": "model",
+      "created": 1770166875,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder-flash<>OPR",
+      "object": "model",
+      "created": 1758117431,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder-30b-a3b-instruct<>NOV",
+      "object": "model",
+      "created": 1760026743,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen3-coder-30b-a3b-instruct",
+      "object": "model",
+      "created": 1753992772,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/qwen.qwen3-coder-30b-a3b-v1:0<>BED",
+      "object": "model",
+      "created": 1758232821,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "qwen/qwen3-coder-30b-a3b-instruct<>OPR",
+      "object": "model",
+      "created": 1756400837,
+      "owned_by": "Alibaba"
+    },
+    {
+      "id": "zai-org/GLM-5-Turbo<>CHT",
+      "object": "model",
+      "created": 1773263386,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "zai-org/glm-4.5v<>NOV",
+      "object": "model",
+      "created": 1754931863,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "z-ai/glm-4.5v<>OPR",
+      "object": "model",
+      "created": 1754929634,
+      "owned_by": "Z.ai"
+    },
+    {
+      "id": "MiniMax-M2.7-highspeed<>MMX",
+      "object": "model",
+      "created": 1773837877,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "minimax/minimax-m2.7<>NOV",
+      "object": "model",
+      "created": 1773821376,
+      "owned_by": "MiniMax AI"
+    },
+    {
+      "id": "nvidia/Nemotron-120B-A12B<>BST",
+      "object": "model",
+      "created": 1773262985,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b:free<>OPR",
+      "object": "model",
+      "created": 1773262929,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/nvidia.nemotron-nano-9b-v2<>BED",
+      "object": "model",
+      "created": 1764874789,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "nvidia/nemotron-nano-12b-v2-vl<>OPR",
+      "object": "model",
+      "created": 1761766389,
+      "owned_by": "NVIDIA"
+    },
+    {
+      "id": "baidu/ernie-4.5-vl-28b-a3b<>NOV",
+      "object": "model",
+      "created": 1751909607,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "baidu/ernie-4.5-vl-28b-a3b<>OPR",
+      "object": "model",
+      "created": 1755272062,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "baidu/ernie-4.5-vl-28b-a3b-thinking<>NOV",
+      "object": "model",
+      "created": 1764179174,
+      "owned_by": "Baidu"
+    },
+    {
+      "id": "command-a-vision-07-2025",
+      "object": "model",
+      "created": 1753735950,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "command-r7b-arabic-02-2025",
+      "object": "model",
+      "created": 1743117281,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "meta-llama/llama-guard-3-8b<>OPR",
+      "object": "model",
+      "created": 1743117727,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/Llama-Guard-4-12B<>TAI",
+      "object": "model",
+      "created": 1767146951,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-guard-4-12b<>OPR",
+      "object": "model",
+      "created": 1745999126,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "us.meta.llama3-2-90b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110251,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "us.meta.llama3-2-3b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110245,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct<>OPR",
+      "object": "model",
+      "created": 1743117704,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909875,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "us.meta.llama3-2-1b-instruct-v1:0<>BED",
+      "object": "model",
+      "created": 1743110239,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.2-1b-instruct<>NOV",
+      "object": "model",
+      "created": 1751909866,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "object": "model",
+      "created": 1728958860,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "Llama-3.2-11B-Vision-Instruct<>AZR",
+      "object": "model",
+      "created": 1743107785,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "meta-llama/llama-3.2-11b-vision-instruct<>OPR",
+      "object": "model",
+      "created": 1743117696,
+      "owned_by": "Meta"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3-svg",
+      "object": "model",
+      "created": 1749190129,
+      "owned_by": "Recraft"
+    },
+    {
+      "id": "inception/mercury-2<>OPR",
+      "object": "model",
+      "created": 1772735364,
+      "owned_by": "Inception"
+    },
+    {
+      "id": "jamba-mini-2-2026-01",
+      "object": "model",
+      "created": 1767635903,
+      "owned_by": "AI21"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/ai21.jamba-1-5-mini-v1:0<>BED",
+      "object": "model",
+      "created": 1743110031,
+      "owned_by": "AI21"
+    },
+    {
+      "id": "moonshot-v1-8k-vision-preview<>MOS",
+      "object": "model",
+      "created": 1752351051,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "moonshot-v1-32k-vision-preview<>MOS",
+      "object": "model",
+      "created": 1752351011,
+      "owned_by": "Moonshot AI"
+    },
+    {
+      "id": "c4ai-aya-vision-8b",
+      "object": "model",
+      "created": 1746028834,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "c4ai-aya-vision-32b",
+      "object": "model",
+      "created": 1743117215,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "tiny-aya-water",
+      "object": "model",
+      "created": 1772140459,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "tiny-aya-fire",
+      "object": "model",
+      "created": 1772140433,
+      "owned_by": "Cohere"
+    },
+    {
+      "id": "NousResearch/Hermes-4-14B<>CHT",
+      "object": "model",
+      "created": 1756918672,
+      "owned_by": "NousResearch"
+    },
+    {
+      "id": "LiquidAI/LFM2-24B-A2B<>TAI",
+      "object": "model",
+      "created": 1771962174,
+      "owned_by": "Liquid"
+    },
+    {
+      "id": "liquid/lfm-2-24b-a2b<>OPR",
+      "object": "model",
+      "created": 1772140759,
+      "owned_by": "Liquid"
+    },
+    {
+      "id": "liquid/lfm-2.5-1.2b-instruct:free<>OPR",
+      "object": "model",
+      "created": 1768932693,
+      "owned_by": "Liquid"
+    },
+    {
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free<>OPR",
+      "object": "model",
+      "created": 1752160112,
+      "owned_by": "CognitiveComputations"
+    },
+    {
+      "id": "stability.stable-image-core-v1:1",
+      "object": "model",
+      "created": 1753488872,
+      "owned_by": "Stability AI"
+    },
+    {
+      "id": "us.writer.palmyra-x5-v1:0<>BED",
+      "object": "model",
+      "created": 1764178709,
+      "owned_by": "Writer"
+    },
+    {
+      "id": "writer/palmyra-x5<>OPR",
+      "object": "model",
+      "created": 1769023936,
+      "owned_by": "Writer"
+    },
+    {
+      "id": "us.writer.palmyra-x4-v1:0<>BED",
+      "object": "model",
+      "created": 1764178694,
+      "owned_by": "Writer"
+    },
+    {
+      "id": "syn-pro-251021",
+      "object": "model",
+      "created": 1761154769,
+      "owned_by": "Upstage"
+    },
+    {
+      "id": "syn-pro",
+      "object": "model",
+      "created": 1761154723,
+      "owned_by": "Upstage"
+    },
+    {
+      "id": "thedrummer/cydonia-24b-v4.1<>OPR",
+      "object": "model",
+      "created": 1758990762,
+      "owned_by": "TheDrummer"
+    },
+    {
+      "id": "sao10k/l3.3-euryale-70b<>OPR",
+      "object": "model",
+      "created": 1743119446,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "sao10k/l31-70b-euryale-v2.2<>NOV",
+      "object": "model",
+      "created": 1751909975,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "sao10k/l3.1-euryale-70b<>OPR",
+      "object": "model",
+      "created": 1743119436,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "Sao10K/L3-8B-Stheno-v3.2<>NOV",
+      "object": "model",
+      "created": 1751909968,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "sao10k/l3-70b-euryale-v2.1<>NOV",
+      "object": "model",
+      "created": 1751909958,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "sao10k/l3-euryale-70b<>OPR",
+      "object": "model",
+      "created": 1743118606,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "sao10k/l3-8b-lunaris<>NOV",
+      "object": "model",
+      "created": 1751909984,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "sao10k/l3-lunaris-8b<>OPR",
+      "object": "model",
+      "created": 1743118599,
+      "owned_by": "Sao10K"
+    },
+    {
+      "id": "rednote-hilab/dots.ocr<>CHT",
+      "object": "model",
+      "created": 1759424133,
+      "owned_by": "Rednote"
+    },
+    {
+      "id": "openrouter/horizon-beta<>OPR",
+      "object": "model",
+      "created": 1754349259,
+      "owned_by": "OpenRouter"
+    },
+    {
+      "id": "kwaipilot/kat-coder-pro<>NOV",
+      "object": "model",
+      "created": 1767635919,
+      "owned_by": "Kwaipilot"
+    },
+    {
+      "id": "kwaipilot/kat-coder-pro<>OPR",
+      "object": "model",
+      "created": 1767589240,
+      "owned_by": "Kwaipilot"
+    },
+    {
+      "id": "ibm-granite/granite-4.0-h-micro<>OPR",
+      "object": "model",
+      "created": 1760931134,
+      "owned_by": "IBM"
+    },
+    {
+      "id": "gryphe/mythomax-l2-13b<>NOV",
+      "object": "model",
+      "created": 1751909820,
+      "owned_by": "Gryphe"
+    },
+    {
+      "id": "anthracite-org/magnum-v4-72b<>OPR",
+      "object": "model",
+      "created": 1743117068,
+      "owned_by": "Anthracite Org"
+    },
+    {
+      "id": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-tg1-large<>BED",
+      "object": "model",
+      "created": 1743110096,
+      "owned_by": "Amazon"
+    },
+    {
+      "id": "allam-2-7b<>GRQ",
+      "object": "model",
+      "created": 1743111286,
+      "owned_by": "Allam"
+    },
+    {
+      "id": "aion-labs/aion-1.0-mini<>OPR",
+      "object": "model",
+      "created": 1743116882,
+      "owned_by": "AionLabs"
+    },
+    {
+      "id": "aion-labs/aion-rp-llama-3.1-8b<>OPR",
+      "object": "model",
+      "created": 1743116893,
+      "owned_by": "AionLabs"
+    },
+    {
+      "id": "aion-labs/aion-2.0<>OPR",
+      "object": "model",
+      "created": 1771962365,
+      "owned_by": "AionLabs"
+    },
+    {
+      "id": "aion-labs/aion-1.0<>OPR",
+      "object": "model",
+      "created": 1743116870,
+      "owned_by": "AionLabs"
+    }
+  ]
+}

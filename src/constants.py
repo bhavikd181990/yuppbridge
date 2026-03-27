@@ -29,7 +29,7 @@ NEXT_ACTION_TOKENS = {
 # Token extraction settings
 TOKEN_CACHE_TTL = 3600  # 1 hour in seconds
 MAX_EXTRACTION_RETRIES = 3
-MIN_REQUIRED_TOKENS = 2
+MIN_REQUIRED_TOKENS = 1
 
 # Token extraction regex patterns
 TOKEN_PATTERNS = [

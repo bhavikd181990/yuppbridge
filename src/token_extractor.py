@@ -89,9 +89,10 @@ class TokenExtractor:
             # Check if this is actually a cached token that failed
             cached_value = self._cache.tokens.get(token_type)
 
-            # If the failed token matches our cache, increment failures
+            # If the failed token matches our cache, increment failures and instantly clear it
             if cached_value == token_value:
                 self._cache.failed_attempts += 1
+                self._cache.tokens.pop(token_type, None)
             elif token_value in constants.NEXT_ACTION_TOKENS.values():
                 # Hardcoded token failed - definitely need to extract
                 self._cache.failed_attempts += 1

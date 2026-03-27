@@ -479,7 +479,7 @@ async def _non_stream_chat(
     cfg = get_config()
     proxy = cfg.get("proxy")
     
-    async for chunk in transport.stream_yupp_chat(
+    async for chunk in _stream_with_retry(
         model=model,
         messages=messages,
         account=account,
@@ -501,6 +501,16 @@ async def _non_stream_chat(
     await auth.mark_account_success(account)
     
     content = "".join(content_parts)
+    
+    if not content.strip():
+        # Treat empty responses as a token/auth failure so the bridge auto-rotates to the next token
+        from .exceptions import YuppBridgeException
+        raise YuppBridgeException(
+            message="Upstream model returned an empty response. Session token may have expired or the model is restricted.",
+            status_code=502,
+            error_type="token_expired_or_restricted"
+        )
+        
     # Estimate tokens (roughly 1 token per 4 characters)
     estimated_tokens = len(content) // 4
     
